@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\examportal jspservlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2216573084.index
+3926556334.index
+4262514872.index
+3593136556.index
+3355333454.index
+1904890891.index
+622703058.index
