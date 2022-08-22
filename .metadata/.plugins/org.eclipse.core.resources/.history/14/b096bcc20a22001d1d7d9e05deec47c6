@@ -39,8 +39,8 @@ public class Login extends HttpServlet {
 			 pst.setString(2, upwd);
 			 ResultSet rs=pst.executeQuery();
 			 if(rs.next()) {
-
-				 
+//				session.setAttribute("name", rs.getString("uname"));
+				 session.setAttribute("email", rs.getString("uemail"));
 				dispatcher=request.getRequestDispatcher("index.jsp");
 				
 			 }

@@ -39,8 +39,7 @@ public class Login extends HttpServlet {
 			 pst.setString(2, upwd);
 			 ResultSet rs=pst.executeQuery();
 			 if(rs.next()) {
-
-				 
+				session.setAttribute("name", rs.getString("uname"));
 				dispatcher=request.getRequestDispatcher("index.jsp");
 				
 			 }
